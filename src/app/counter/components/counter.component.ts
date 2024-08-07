@@ -9,6 +9,8 @@ import { Component} from '@angular/core';
 })
 export class CounterComponent {
   public counter: number = 3;
+
+
   increasyBy(value: number): void {
     if (this.counter > 0) this.counter += value;
   }
